@@ -10,6 +10,15 @@ namespace Basics.Models
     //              zusätzlich beinhaltet sie abstrakte Methoden
     // abstrakte Methode: besitzt nur einen Methodenkopf, aber keinen Methodencode
 
+    // von einer abstrakten Klasse darf man keine Insanz erzeugen
+    
+    // damit abstrakte Klassen einen Sinn ergeben, müssen die abstrakten Methoden in den
+    //      Kindklassen überschrieben (Override) und somit ausprogrammiert werden
+
+    // abstract bewirkt, dass der Compiler für den Programmierer erzwingt, dass
+    //      er alle abstrakten methoden ausprogrammiert.
+
+
 
     public abstract class AbstractClass
     {
